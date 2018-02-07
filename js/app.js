@@ -27,7 +27,7 @@ $(function() {
             var visiblePizzas = data.pizzas.filter(function(pizza) {
                 return pizza.visible;
             });
-            return visiblePizzas;
+            return visiblePizzas.reverse();
         },
 
         init: function() {
